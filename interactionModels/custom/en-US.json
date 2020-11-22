@@ -1,0 +1,364 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "the spell wizard",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "CustomRandomQuizIntent",
+          "slots": [],
+          "samples": [
+            "start a custom random quiz"
+          ]
+        },
+        {
+          "name": "RandomQuizIntent",
+          "slots": [],
+          "samples": [
+            "start a  random quiz"
+          ]
+        },
+        {
+          "name": "DescribeWordIntent",
+          "slots": [
+            {
+              "name": "word",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "explain to me {word}"
+          ]
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "answer",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "answer is {answer}"
+          ]
+        },
+        {
+          "name": "MeaningIntent",
+          "slots": [],
+          "samples": [
+            "What is the meaning",
+            "Could you tell me the meaning"
+          ]
+        },
+        {
+          "name": "PartofSpeechIntent",
+          "slots": [],
+          "samples": [
+            "part of speech",
+            "part of speech please",
+            "What is the part of speech"
+          ]
+        },
+        {
+          "name": "RepeatWordIntent",
+          "slots": [],
+          "samples": [
+            "could you repeat the word again",
+            "what is the word again",
+            "please give me the word again",
+            "could you say the word again"
+          ]
+        },
+        {
+          "name": "AlphabeticalQuizIntent",
+          "slots": [],
+          "samples": [
+            "start alphabetical quiz",
+            "start an alphabetical quiz"
+          ]
+        },
+        {
+          "name": "ReadRequestIntent",
+          "slots": [],
+          "samples": [
+            "read my words",
+            "Read me my words"
+          ]
+        },
+        {
+          "name": "ReadNextWordIntent",
+          "slots": [],
+          "samples": [
+            "next word please",
+            "give me my next word",
+            "please read next word",
+            "read next word"
+          ]
+        },
+        {
+          "name": "WordSpellIntent",
+          "slots": [
+            {
+              "name": "LETTER_ONE",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_TWO",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_THREE",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_FOUR",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_FIVE",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_SIX",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_EIGHT",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_NINE",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_TEN",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_ELEVEN",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_TWELVE",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_THIRTEEN",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_FOURTEEN",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_FIFTEEN",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_SEVEN",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_SIXTEEN",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_SEVENTEEN",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_EIGHTEEN",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_NINETEEN",
+              "type": "Alphabet"
+            },
+            {
+              "name": "LETTER_TWENTY",
+              "type": "Alphabet"
+            }
+          ],
+          "samples": [
+            "{LETTER_ONE} {LETTER_TWO} {LETTER_THREE} {LETTER_FOUR} {LETTER_FIVE} {LETTER_SIX} {LETTER_SEVEN} {LETTER_EIGHT} {LETTER_NINE} {LETTER_TEN} {LETTER_ELEVEN} {LETTER_TWELVE} {LETTER_THIRTEEN} {LETTER_FOURTEEN} {LETTER_FIFTEEN} {LETTER_SIXTEEN} {LETTER_SEVENTEEN} {LETTER_EIGHTEEN} {LETTER_NINETEEN} {LETTER_TWENTY}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "z"
+              }
+            },
+            {
+              "name": {
+                "value": "y"
+              }
+            },
+            {
+              "name": {
+                "value": "x"
+              }
+            },
+            {
+              "name": {
+                "value": "w"
+              }
+            },
+            {
+              "name": {
+                "value": "v"
+              }
+            },
+            {
+              "name": {
+                "value": "u"
+              }
+            },
+            {
+              "name": {
+                "value": "t"
+              }
+            },
+            {
+              "name": {
+                "value": "s"
+              }
+            },
+            {
+              "name": {
+                "value": "r"
+              }
+            },
+            {
+              "name": {
+                "value": "q"
+              }
+            },
+            {
+              "name": {
+                "value": "p"
+              }
+            },
+            {
+              "name": {
+                "value": "o"
+              }
+            },
+            {
+              "name": {
+                "value": "n"
+              }
+            },
+            {
+              "name": {
+                "value": "m"
+              }
+            },
+            {
+              "name": {
+                "value": "l"
+              }
+            },
+            {
+              "name": {
+                "value": "k"
+              }
+            },
+            {
+              "name": {
+                "value": "j"
+              }
+            },
+            {
+              "name": {
+                "value": "i"
+              }
+            },
+            {
+              "name": {
+                "value": "h"
+              }
+            },
+            {
+              "name": {
+                "value": "g"
+              }
+            },
+            {
+              "name": {
+                "value": "f"
+              }
+            },
+            {
+              "name": {
+                "value": "e"
+              }
+            },
+            {
+              "name": {
+                "value": "d"
+              }
+            },
+            {
+              "name": {
+                "value": "c"
+              }
+            },
+            {
+              "name": {
+                "value": "b"
+              }
+            },
+            {
+              "name": {
+                "value": "a"
+              }
+            }
+          ],
+          "name": "Alphabet"
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "30"
+}

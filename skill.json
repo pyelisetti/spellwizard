@@ -1,0 +1,62 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:037179609958:function:8967c636-086c-4c55-b68e-d7ee09a1dc40:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:037179609958:function:8967c636-086c-4c55-b68e-d7ee09a1dc40:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:037179609958:function:8967c636-086c-4c55-b68e-d7ee09a1dc40:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:037179609958:function:8967c636-086c-4c55-b68e-d7ee09a1dc40:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "containsAds": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "locales": {
+        "en-US": {}
+      },
+      "usesPersonalInfo": false
+    },
+    "publishingInformation": {
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-US": {
+          "description": "Spelling Bee Preparation Wizard",
+          "examplePhrases": [
+            "Alex open the spell wizard",
+            "hello",
+            "help"
+          ],
+          "keywords": [],
+          "name": "SpellWizard",
+          "summary": "Spelling Bee Preparation Wizard"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
